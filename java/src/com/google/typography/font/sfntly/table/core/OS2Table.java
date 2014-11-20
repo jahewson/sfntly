@@ -1044,7 +1044,7 @@ public final class OS2Table extends Table {
     }
 
     public void setUsWinDescent(int descent) {
-      this.internalWriteData().writeUShort(Offset.usWinAscent.offset, descent);
+      this.internalWriteData().writeUShort(Offset.usWinDescent.offset, descent);
     }
 
     public long ulCodePageRange1() {
