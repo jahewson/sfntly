@@ -1,0 +1,3 @@
+build/
+dist/
+java/src/com/google/typography/font/sfntly/sample/${dist_sfview.dir}/
