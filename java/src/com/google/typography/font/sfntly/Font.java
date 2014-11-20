@@ -319,6 +319,7 @@ public class Font {
   }
 
   public static final int SFNTVERSION_1 = Fixed1616.fixed(1, 0);
+  public static final int SFNTVERSION_OTTO = Fixed1616.fixed(0x4F54, 0x544F);
 
   private final int sfntVersion;
   private final byte[] digest;
@@ -695,6 +696,10 @@ public class Font {
      */
     public Font build() {
       Map<Integer, ? extends Table> tables = null;
+
+      if (this.tableBuilders.containsKey(Tag.CFF)) {
+        this.sfntVersion = SFNTVERSION_OTTO;
+      }
 
       Font font = new Font(this.sfntVersion, this.digest);
 
