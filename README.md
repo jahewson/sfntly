@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/jahewson/sfntly.svg)](https://travis-ci.org/jahewson/sfntly)
+
 What is sfntly?
 ===============
 sfntly is a Java and C++ library for using, editing, and creating sfnt container based fonts (e.g. OpenType, TrueType). This library was initially created by Google's Font Team and the C++ port was done by the Chrome team. It has been made open source.
