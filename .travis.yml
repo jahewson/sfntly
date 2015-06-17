@@ -10,3 +10,5 @@ deploy:
   skip_cleanup: true
   on:
     repo: jahewson/sfntly
+    tags: true
+
