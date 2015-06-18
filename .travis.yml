@@ -6,7 +6,7 @@ deploy:
   provider: releases
   api_key:
     secure: TyJ+MTztbhIix32EyZ4zAFQXPAKk4jXmm4nDyYiE4hic9to5sHzmlEWTmdrOjsyls/PwFG+AXkh+MQcnJHhx/KYlVl8ZP7M0I4192KllOEP+5j3pj++csE6EQMQcUacBT/kLLtUUUQguvciBty8UbsmP3J4OUUA0i2oZG60Svnw=
-  file: java/dist/lib/sfntly.jar
+  file: /home/travis/build/jahewson/sfntly/java/dist/lib/sfntly.jar
   skip_cleanup: true
   on:
     repo: jahewson/sfntly
